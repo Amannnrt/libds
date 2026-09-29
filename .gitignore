@@ -1,0 +1,8 @@
+# Compiled objects and executables
+build/
+*.o
+*.out
+
+# Debugging and profiling output
+core
+core.*
