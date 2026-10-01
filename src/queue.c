@@ -11,8 +11,8 @@ typedef struct {
 
 
 /* Initialize queue */
-int queue_init(queue *q)
-{
+int queue_init(queue *q){
+    
     q->capacity = 4;
     q->length = 0;
     q->front = 0;
